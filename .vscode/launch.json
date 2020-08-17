@@ -1,0 +1,25 @@
+{
+  "version": "0.2.0",
+  "configurations": [
+    {
+      "name": "Run thirdDemo-thirdDemo",
+      "type": "node",
+      "request": "launch",
+      "program": "${workspaceFolder}/thirddemo-approuter/node_modules/@sap/html5-repo-mock/index.js",
+      "args": [
+        "--standalone",
+        "/comyashthirdDemo/index.html",
+        "--ui5",
+        "{\"version\":\".\"}"
+      ],
+      "cwd": "${workspaceFolder}/thirdDemo",
+      "env": {
+        "PORT": "6004",
+        "MOCK_LOOKUP_DIRS": "[\"webapp\"]",
+        "run.config": "{\"handlerId\":\"ui5_run_config_handler_id\",\"runnableId\":\"/home/user/projects/firstDemo/secondDemo/thirdDemo/thirdDemo\"}"
+      },
+      "envFile": "${workspaceFolder}/thirdDemo/.env1",
+      "preLaunchTask": "Build thirdDemo"
+    }
+  ]
+}

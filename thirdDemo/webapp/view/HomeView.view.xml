@@ -1,0 +1,18 @@
+<mvc:View controllerName="com.yash.thirdDemo.controller.HomeView" xmlns:mvc="sap.ui.core.mvc" displayBlock="true" xmlns="sap.m">
+	<Shell id="shell">
+		<App id="app">
+			<pages>
+				<Page id="page" title="{i18n>title}">
+                    <MessagePage showHeader="false"
+                        description="More content to come"
+                        text="Stay tuned!"
+                        icon="sap-icon://home" />
+					<content>
+                        <Text text="abc"></Text>
+                        <Text text="abc2"></Text>
+                    </content>
+				</Page>
+			</pages>
+		</App>
+	</Shell>
+</mvc:View>
